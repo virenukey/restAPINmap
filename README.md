@@ -33,6 +33,6 @@ How to run tool
 How to send REST request
 =========================
 http://<RESTAPI_URL>:5002/nmap?target=<target_machine>&options=-sV
-- Example: http://192.168.0.108:5002/todo/api/nmap?target=www.metanica.com&options=-sV
+- Example: http://192.168.0.108:5002/todo/api/nmap?target=192.168.1.8&options=-sV
 
 Note: For "options", please read various options available for NMAP tool
